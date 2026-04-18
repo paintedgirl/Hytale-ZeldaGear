@@ -27,14 +27,15 @@
                   "Failed": "MasterSword_LaunchBeam",
                   "ValueType": "Percent",
                   "Parent": "Stat_Check",
-                  "Costs": {
-                    "Health": 100
-                  },
                   "LessThan": true,
                   "RunTime": 0,
                   "Next": {
                     "Type": "Simple",
                     "RunTime": 0.388
+                  },
+                  "Lenient": false,
+                  "Costs": {
+                    "Health": 100
                   }
                 }
               ]

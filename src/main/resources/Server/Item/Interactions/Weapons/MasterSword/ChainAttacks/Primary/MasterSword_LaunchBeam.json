@@ -9,5 +9,7 @@
   },
   "Effects": {
     "LocalSoundEventId": "SFX_Staff_Flame_Flamethrower_Impact"
-  }
+  },
+  "LessThan": false,
+  "ValueType": "Percent"
 }

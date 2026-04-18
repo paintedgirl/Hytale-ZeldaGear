@@ -159,18 +159,18 @@
                   },
                   "front": {
                     "offset": {"x": 76, "y": 52},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 270
+                    "mirror": {"x": true, "y": true},
+                    "angle": 90
                   },
                   "left": {
                     "offset": {"x": 32, "y": 49},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 270
+                    "mirror": {"x": true, "y": true},
+                    "angle": 90
                   },
                   "top": {
                     "offset": {"x": 44, "y": 52},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 270
+                    "mirror": {"x": true, "y": true},
+                    "angle": 90
                   },
                   "bottom": {
                     "offset": {"x": 44, "y": 47},
@@ -233,8 +233,8 @@
                 "textureLayout": {
                   "back": {
                     "offset": {"x": 96, "y": 53},
-                    "mirror": {"x": true, "y": true},
-                    "angle": 270
+                    "mirror": {"x": false, "y": false},
+                    "angle": 90
                   },
                   "right": {
                     "offset": {"x": 42, "y": 49},
@@ -243,8 +243,8 @@
                   },
                   "front": {
                     "offset": {"x": 76, "y": 52},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 270
+                    "mirror": {"x": true, "y": true},
+                    "angle": 90
                   },
                   "left": {
                     "offset": {"x": 44, "y": 49},
@@ -258,8 +258,8 @@
                   },
                   "bottom": {
                     "offset": {"x": 44, "y": 50},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 270
+                    "mirror": {"x": true, "y": true},
+                    "angle": 90
                   }
                 },
                 "unwrapMode": "custom",
@@ -302,265 +302,328 @@
             },
             {
               "id": "9",
-              "name": "Hat5--C7",
-              "position": {"x": -3, "y": 16, "z": -3},
-              "orientation": {"x": 0.1305, "y": -0.00285, "z": 0.02162, "w": 0.99121},
-              "shape": {
-                "type": "box",
-                "offset": {"x": -5.75, "y": 10, "z": 1.25},
-                "stretch": {"x": 1, "y": 1, "z": 0.5},
-                "settings": {
-                  "isPiece": false,
-                  "size": {"x": 12, "y": 10, "z": 1},
-                  "isStaticBox": true
-                },
-                "textureLayout": {
-                  "back": {
-                    "offset": {"x": 71, "y": 0},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "front": {
-                    "offset": {"x": 96, "y": 0},
-                    "mirror": {"x": true, "y": false},
-                    "angle": 0
-                  }
-                },
-                "unwrapMode": "custom",
-                "visible": true,
-                "doubleSided": false,
-                "shadingMode": "flat"
-              }
-            },
-            {
-              "id": "10",
-              "name": "Hat4--C8",
-              "position": {"x": 3, "y": 17, "z": -3},
-              "orientation": {"x": 0, "y": 0, "z": -0.02181, "w": 0.99976},
-              "shape": {
-                "type": "box",
-                "offset": {"x": 5.5, "y": -8.5, "z": 1},
-                "stretch": {"x": 0.875, "y": 1, "z": 1},
-                "settings": {
-                  "isPiece": false,
-                  "size": {"x": 11, "y": 13, "z": 2},
-                  "isStaticBox": true
-                },
-                "textureLayout": {
-                  "back": {
-                    "offset": {"x": 82, "y": 16},
-                    "mirror": {"x": true, "y": false},
-                    "angle": 0
-                  },
-                  "right": {
-                    "offset": {"x": 70, "y": 16},
-                    "mirror": {"x": true, "y": false},
-                    "angle": 0
-                  },
-                  "front": {
-                    "offset": {"x": 84, "y": 16},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "left": {
-                    "offset": {"x": 66, "y": 16},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "top": {
-                    "offset": {"x": 82, "y": 17},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 180
-                  }
-                },
-                "unwrapMode": "custom",
-                "visible": true,
-                "doubleSided": false,
-                "shadingMode": "flat"
-              }
-            },
-            {
-              "id": "11",
-              "name": "Hat5--C9",
+              "name": "Ears",
               "position": {"x": -3, "y": 17, "z": -3},
-              "orientation": {"x": 0, "y": 0, "z": 0.02181, "w": 0.99976},
+              "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
               "shape": {
-                "type": "box",
-                "offset": {"x": -5.5, "y": -8.5, "z": 1},
-                "stretch": {"x": 0.875, "y": 1, "z": 1},
+                "type": "none",
+                "offset": {"x": 0, "y": 0, "z": 0},
+                "stretch": {"x": 1, "y": 1, "z": 1},
                 "settings": {
-                  "isPiece": false,
-                  "size": {"x": 11, "y": 13, "z": 2},
-                  "isStaticBox": true
+                  "isPiece": false
                 },
-                "textureLayout": {
-                  "back": {
-                    "offset": {"x": 71, "y": 16},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "right": {
-                    "offset": {"x": 70, "y": 16},
-                    "mirror": {"x": true, "y": false},
-                    "angle": 0
-                  },
-                  "front": {
-                    "offset": {"x": 95, "y": 16},
-                    "mirror": {"x": true, "y": false},
-                    "angle": 0
-                  },
-                  "left": {
-                    "offset": {"x": 66, "y": 16},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "top": {
-                    "offset": {"x": 82, "y": 17},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 180
-                  }
-                },
+                "textureLayout": {},
                 "unwrapMode": "custom",
                 "visible": true,
                 "doubleSided": false,
                 "shadingMode": "flat"
-              }
-            },
-            {
-              "id": "12",
-              "name": "Hat4--C10",
-              "position": {"x": 3, "y": 13.25, "z": -0.75},
-              "orientation": {"x": 0.06539, "y": 0.00143, "z": -0.02176, "w": 0.99762},
-              "shape": {
-                "type": "box",
-                "offset": {"x": 5.36919, "y": 3.49715, "z": -1},
-                "stretch": {"x": 1, "y": 1, "z": 0.75},
-                "settings": {
-                  "isPiece": false,
-                  "size": {"x": 11, "y": 11, "z": 2},
-                  "isStaticBox": true
-                },
-                "textureLayout": {
-                  "back": {
-                    "offset": {"x": 82, "y": 9},
-                    "mirror": {"x": true, "y": false},
-                    "angle": 0
-                  },
-                  "right": {
-                    "offset": {"x": 68, "y": 8},
-                    "mirror": {"x": true, "y": false},
-                    "angle": 0
-                  },
-                  "front": {
-                    "offset": {"x": 84, "y": 9},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "left": {
-                    "offset": {"x": 68, "y": 8},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "top": {
-                    "offset": {"x": 82, "y": 10},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 180
-                  },
-                  "bottom": {
-                    "offset": {"x": 71, "y": 19},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
+              },
+              "children": [
+                {
+                  "id": "10",
+                  "name": "Hat4--C1",
+                  "position": {"x": 6, "y": 0, "z": 0},
+                  "orientation": {"x": 0, "y": 0, "z": -0.02181, "w": 0.99976},
+                  "shape": {
+                    "type": "box",
+                    "offset": {"x": 5.5, "y": -8.5, "z": 1},
+                    "stretch": {"x": 0.875, "y": 1, "z": 1},
+                    "settings": {
+                      "isPiece": false,
+                      "size": {"x": 11, "y": 13, "z": 2},
+                      "isStaticBox": true
+                    },
+                    "textureLayout": {
+                      "back": {
+                        "offset": {"x": 82, "y": 16},
+                        "mirror": {"x": true, "y": false},
+                        "angle": 0
+                      },
+                      "right": {
+                        "offset": {"x": 70, "y": 16},
+                        "mirror": {"x": true, "y": false},
+                        "angle": 0
+                      },
+                      "front": {
+                        "offset": {"x": 84, "y": 16},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "left": {
+                        "offset": {"x": 66, "y": 16},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {"x": 82, "y": 17},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 180
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": false,
+                    "shadingMode": "flat"
                   }
                 },
-                "unwrapMode": "custom",
-                "visible": true,
-                "doubleSided": false,
-                "shadingMode": "flat"
-              }
-            },
-            {
-              "id": "13",
-              "name": "Hat5--C11",
-              "position": {"x": -3, "y": 13.25, "z": -0.75},
-              "orientation": {"x": 0.06539, "y": -0.00143, "z": 0.02176, "w": 0.99762},
-              "shape": {
-                "type": "box",
-                "offset": {"x": -5.36919, "y": 3.49715, "z": -1},
-                "stretch": {"x": 1, "y": 1, "z": 0.75},
-                "settings": {
-                  "isPiece": false,
-                  "size": {"x": 11, "y": 11, "z": 2},
-                  "isStaticBox": true
+                {
+                  "id": "11",
+                  "name": "H",
+                  "position": {"x": 6, "y": -2, "z": 1.25},
+                  "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                  "shape": {
+                    "type": "none",
+                    "offset": {"x": 0, "y": 0, "z": 0},
+                    "stretch": {"x": 1, "y": 1, "z": 1},
+                    "settings": {
+                      "isPiece": false
+                    },
+                    "textureLayout": {},
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": false,
+                    "shadingMode": "flat"
+                  },
+                  "children": [
+                    {
+                      "id": "12",
+                      "name": "Hat4--C1",
+                      "position": {"x": 0, "y": -1.75, "z": 1},
+                      "orientation": {"x": 0.06539, "y": 0.00143, "z": -0.02176, "w": 0.99762},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": 5.36919, "y": 3.49715, "z": -1},
+                        "stretch": {"x": 1, "y": 1, "z": 0.75},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 11, "y": 11, "z": 2},
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "back": {
+                            "offset": {"x": 82, "y": 9},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "right": {
+                            "offset": {"x": 68, "y": 8},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "front": {
+                            "offset": {"x": 84, "y": 9},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "left": {
+                            "offset": {"x": 68, "y": 8},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "top": {
+                            "offset": {"x": 82, "y": 10},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 180
+                          },
+                          "bottom": {
+                            "offset": {"x": 71, "y": 19},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": false,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "13",
+                      "name": "Hat5--C2",
+                      "position": {"x": -6, "y": -1.75, "z": 1},
+                      "orientation": {"x": 0.06539, "y": -0.00143, "z": 0.02176, "w": 0.99762},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": -5.36919, "y": 3.49715, "z": -1},
+                        "stretch": {"x": 1, "y": 1, "z": 0.75},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 11, "y": 11, "z": 2},
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "back": {
+                            "offset": {"x": 71, "y": 9},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "right": {
+                            "offset": {"x": 70, "y": 8},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "front": {
+                            "offset": {"x": 95, "y": 9},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "left": {
+                            "offset": {"x": 66, "y": 8},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "top": {
+                            "offset": {"x": 82, "y": 10},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 180
+                          },
+                          "bottom": {
+                            "offset": {"x": 71, "y": 19},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": false,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "14",
+                      "name": "Hair-B2",
+                      "position": {"x": -6, "y": 6, "z": 1.75},
+                      "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                      "shape": {
+                        "type": "none",
+                        "offset": {"x": 0, "y": 0, "z": 0},
+                        "stretch": {"x": 1, "y": 1, "z": 1},
+                        "settings": {
+                          "isPiece": false
+                        },
+                        "textureLayout": {},
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": false,
+                        "shadingMode": "flat"
+                      },
+                      "children": [
+                        {
+                          "id": "15",
+                          "name": "Hat4--C1",
+                          "position": {"x": 6, "y": -5, "z": -3},
+                          "orientation": {"x": 0.1305, "y": 0.00285, "z": -0.02162, "w": 0.99121},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 5.75, "y": 10, "z": 1.25},
+                            "stretch": {"x": 1, "y": 1, "z": 0.5},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 12, "y": 10, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 83, "y": 0},
+                                "mirror": {"x": true, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 84, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": false,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "16",
+                          "name": "Hat5--C2",
+                          "position": {"x": 0, "y": -5, "z": -3},
+                          "orientation": {"x": 0.1305, "y": -0.00285, "z": 0.02162, "w": 0.99121},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": -5.75, "y": 10, "z": 1.25},
+                            "stretch": {"x": 1, "y": 1, "z": 0.5},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 12, "y": 10, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 71, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 96, "y": 0},
+                                "mirror": {"x": true, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": false,
+                            "shadingMode": "flat"
+                          }
+                        }
+                      ]
+                    }
+                  ]
                 },
-                "textureLayout": {
-                  "back": {
-                    "offset": {"x": 71, "y": 9},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "right": {
-                    "offset": {"x": 70, "y": 8},
-                    "mirror": {"x": true, "y": false},
-                    "angle": 0
-                  },
-                  "front": {
-                    "offset": {"x": 95, "y": 9},
-                    "mirror": {"x": true, "y": false},
-                    "angle": 0
-                  },
-                  "left": {
-                    "offset": {"x": 66, "y": 8},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "top": {
-                    "offset": {"x": 82, "y": 10},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 180
-                  },
-                  "bottom": {
-                    "offset": {"x": 71, "y": 19},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
+                {
+                  "id": "17",
+                  "name": "Hat5--C2",
+                  "position": {"x": 0, "y": 0, "z": 0},
+                  "orientation": {"x": 0, "y": 0, "z": 0.02181, "w": 0.99976},
+                  "shape": {
+                    "type": "box",
+                    "offset": {"x": -5.5, "y": -8.5, "z": 1},
+                    "stretch": {"x": 0.875, "y": 1, "z": 1},
+                    "settings": {
+                      "isPiece": false,
+                      "size": {"x": 11, "y": 13, "z": 2},
+                      "isStaticBox": true
+                    },
+                    "textureLayout": {
+                      "back": {
+                        "offset": {"x": 71, "y": 16},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "right": {
+                        "offset": {"x": 70, "y": 16},
+                        "mirror": {"x": true, "y": false},
+                        "angle": 0
+                      },
+                      "front": {
+                        "offset": {"x": 95, "y": 16},
+                        "mirror": {"x": true, "y": false},
+                        "angle": 0
+                      },
+                      "left": {
+                        "offset": {"x": 66, "y": 16},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {"x": 82, "y": 17},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 180
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": false,
+                    "shadingMode": "flat"
                   }
-                },
-                "unwrapMode": "custom",
-                "visible": true,
-                "doubleSided": false,
-                "shadingMode": "flat"
-              }
-            },
-            {
-              "id": "14",
-              "name": "Hat4--C12",
-              "position": {"x": 3, "y": 16, "z": -3},
-              "orientation": {"x": 0.1305, "y": 0.00285, "z": -0.02162, "w": 0.99121},
-              "shape": {
-                "type": "box",
-                "offset": {"x": 5.75, "y": 10, "z": 1.25},
-                "stretch": {"x": 1, "y": 1, "z": 0.5},
-                "settings": {
-                  "isPiece": false,
-                  "size": {"x": 12, "y": 10, "z": 1},
-                  "isStaticBox": true
-                },
-                "textureLayout": {
-                  "back": {
-                    "offset": {"x": 83, "y": 0},
-                    "mirror": {"x": true, "y": false},
-                    "angle": 0
-                  },
-                  "front": {
-                    "offset": {"x": 84, "y": 0},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  }
-                },
-                "unwrapMode": "custom",
-                "visible": true,
-                "doubleSided": false,
-                "shadingMode": "flat"
-              }
+                }
+              ]
             }
           ]
         }
