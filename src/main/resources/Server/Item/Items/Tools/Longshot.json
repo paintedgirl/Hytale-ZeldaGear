@@ -101,7 +101,7 @@
   ],
   "PlayerAnimationsId": "Hookshot",
   "Interactions": {
-    "Secondary": "Root_Weapon_Shortbow_Primary_Shoot"
+    "Secondary": "RootHookshotPrimary"
   },
   "MaxStack": 1,
   "Set": "C_Hookshot"

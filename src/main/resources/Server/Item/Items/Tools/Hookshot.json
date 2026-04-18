@@ -55,7 +55,7 @@
   ],
   "PlayerAnimationsId": "Hookshot",
   "Interactions": {
-    "Secondary": "Root_Weapon_Shortbow_Primary_Shoot"
+    "Secondary": "RootHookshotPrimary"
   },
   "InteractionVars": {
     "Primary_Shoot_Charge": {

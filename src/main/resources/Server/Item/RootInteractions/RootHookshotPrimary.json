@@ -1,0 +1,9 @@
+{
+  "Interactions": [
+    "HookshotCharge"
+  ],
+  "RequireNewClick": true,
+  "Tags": {
+    "Ranged": []
+  }
+}

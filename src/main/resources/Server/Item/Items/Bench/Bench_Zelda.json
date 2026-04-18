@@ -45,6 +45,11 @@
         "Weight": 1
       }
     ],
+    "BlockEntity": {
+        "Components": {
+            "BenchBlock": {}
+        }
+    },
     "VariantRotation": "NESW",
     "HitboxType": "Bench_Cooking",
     "State": {

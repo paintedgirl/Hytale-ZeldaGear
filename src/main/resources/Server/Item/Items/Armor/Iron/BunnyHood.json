@@ -6,25 +6,26 @@
   "Quality": "Uncommon",
   "ItemLevel": 20,
   "PlayerAnimationsId": "Block",
-  "ItemSoundSetId": "ISS_Armor_Heavy",
+  "ItemSoundSetId": "ISS_Armor_Cloth",
   "Categories": [
-    "Items.Armors"
+    "Items.Armors",
+    "ZeldaGear.Gear"
   ],
-  "Icon": "Icons/ItemsGenerated/Armor_Iron_Head.png",
+  "Icon": "Icons/ItemsGenerated/BunnyHood.png",
   "IconProperties": {
+    "Scale": 0.6,
     "Rotation": [
       22.5,
       45,
       22.5
     ],
-    "Scale": 0.5,
     "Translation": [
-      0,
-      -15
+      1,
+      -19
     ]
   },
-  "Model": "Items/Armors/Cotton/Head.blockymodel",
-  "Texture": "Items/Armors/Cotton/Head_Texture.png",
+  "Model": "Items/Armor/Masks/BunnyHood.blockymodel",
+  "Texture": "Items/Armor/Masks/BunnyHood.png",
   "Recipe": {
     "Input": [
       {
@@ -80,14 +81,6 @@
   "Armor": {
     "ArmorSlot": "Head",
     "BaseDamageResistance": 0,
-    "CosmeticsToHide": [
-      "EarAccessory",
-      "Ear",
-      "Haircut",
-      "HeadAccessory",
-      "Haircut",
-      "Haircut"
-    ],
     "DamageResistance": {
       "Physical": [
         {
@@ -121,7 +114,10 @@
           "Amount": 0.4
         }
       ]
-    }
+    },
+    "CosmeticsToHide": [
+      "HeadAccessory"
+    ]
   },
   "MaxDurability": 100,
   "DurabilityLossOnHit": 0.5,
@@ -132,5 +128,7 @@
     "Family": [
       "Iron"
     ]
-  }
+  },
+  "Set": "ZZ_Masks",
+  "Scale": 1
 }
