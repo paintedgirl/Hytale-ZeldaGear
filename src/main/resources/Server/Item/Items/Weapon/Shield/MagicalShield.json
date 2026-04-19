@@ -57,8 +57,14 @@
     "StatModifiers": {
       "Health": [
         {
-          "Amount": 4,
+          "Amount": 5,
           "CalculationType": "Additive"
+        }
+      ],
+      "Mana": [
+        {
+          "CalculationType": "Multiplicative",
+          "Amount": 0.1
         }
       ]
     },
