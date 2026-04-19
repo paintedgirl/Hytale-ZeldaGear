@@ -1,21 +1,21 @@
 {
   "Parent": "Template_Weapon_Shield",
   "TranslationProperties": {
-    "Name": "server.items.Spirit_Shield.name",
-    "Description": "server.items.Spirit_Shield.description"
+    "Name": "server.items.Magical_Shield.name",
+    "Description": "server.items.Magical_Shield.description"
   },
   "Categories": [
     "ZeldaGear.Gear",
     "Items.Weapons"
   ],
-  "Model": "Items/Weapons/Shield/ToonShield.blockymodel",
-  "Texture": "Items/Weapons/Shield/SpiritShield.png",
-  "Icon": "Icons/ItemsGenerated/SpiritShield.png",
+  "Model": "Items/Weapons/Shield/MagicalShield.blockymodel",
+  "Texture": "Items/Weapons/Shield/MagicalShield.png",
+  "Icon": "Icons/ItemsGenerated/MagicalShield.png",
   "Quality": "Uncommon",
-  "ItemLevel": 3,
+  "ItemLevel": 1,
   "Scale": 1.1,
   "IconProperties": {
-    "Scale": 0.5,
+    "Scale": 0.51,
     "Rotation": [
       315,
       270,
@@ -52,7 +52,7 @@
       }
     ]
   },
-  "Set": "D7_Shield",
+  "Set": "D91_Shield",
   "Utility": {
     "StatModifiers": {
       "Health": [

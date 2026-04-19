@@ -81,6 +81,12 @@ items.Spirit_Shield.description=<i>A shield used by a royal engineer known as th
 items.Ordon_Shield.name=Ordon Shield
 items.Ordon_Shield.description=<i>A wooden shield, local to the <color is="#8B339E">Ordon Village</color>.</i>
 
+items.Ancient_Shield.name=Ancient Shield
+items.Ancient_Shield.description=<i>A wooden shield wielded by the <color is="#8B339E">Hero of Hyrule</color>.</i>
+
+items.Magical_Shield.name=Magical Shield
+items.Magical_Shield.description=<i>A magical shield wielded by the <color is="#8B339E">Hero of Hyrule</color>.</i>
+
 ####################
 #   EQUIPMENT
 ####################
